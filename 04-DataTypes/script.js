@@ -13,6 +13,23 @@ const hasKids = true;
 // Null
 const aptNumber = null;
 
-const output = aptNumber;
+// Symbol
+const id = Symbol('id');
 
+// BigInt
+const n = 999999999999999999n;
+
+//////// Reference Types
+
+const numbers = [1, 2, 3, 4];
+
+const person = {
+    name: 'bob'
+}
+
+function sayHello(){
+    console.log('Hello');
+}
+
+const output = sayHello;
 console.log(output, typeof output);
